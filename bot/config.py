@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi  {}!**\n__I'm Google Drive Uploader Bot.I have been created by @adarshgoelo5 .You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__   use /auth   to start the authorisation process"
+    START_MSG = "**Hi  {}!**\n__I'm Google Drive Uploader Bot.I have been created by @adarshgoelo5 .You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help. use /auth   to start the authorisation process__  "
 
     HELP_MSG = [
         ".",
