@@ -1,9 +1,9 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "1837774262:AAEDDICI3Dviim2FT6nHLHVxfvdXW0GW0iI"
+    APP_ID = "6277451"
+    API_HASH = "401f66ed51a03e2eeabb7f14d9d04b0d"
+    DATABASE_URL = "postgres://hjpxmlqpqvjydw:f6334a3802eb2698589db10d8906e123967233e330865de10616cdb99adbc9f7@ec2-34-197-105-186.compute-1.amazonaws.com:5432/db4s7rhpchfntq"
+    SUDO_USERS = "1821879869" # Sepearted by space.
     SUPPORT_CHAT_LINK = ""
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = ""
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.I have been created by @adarshgoelo5 .You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
@@ -38,7 +38,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Developed by @viperadnan**"
+        "**Developed by @adarshgoelo5**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
