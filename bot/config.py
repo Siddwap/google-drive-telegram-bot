@@ -51,9 +51,9 @@ class Messages:
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
+    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...THANK YOU FOR USING GOOGLE DRIVE ADARSH BOT :)**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.THANK YOU FOR USING GOOGLE DRIVE ADARSH BOT :)**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
