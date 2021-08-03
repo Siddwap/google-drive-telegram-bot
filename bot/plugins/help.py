@@ -51,7 +51,7 @@ def map(pos):
         button = [
             [
                 InlineKeyboardButton(text = '<--BACK', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = 'NOTHING AHEAD  RETURN', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = 'NOTHING AHEAD  NOW USE /AUTH TO AUTHOURIZE ME', callback_data = f"help+{pos+1}")
             ],
         ]
     return button
