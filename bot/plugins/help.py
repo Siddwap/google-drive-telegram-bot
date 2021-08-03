@@ -35,7 +35,7 @@ def help_answer(c, callback_query):
 def map(pos):
     if(pos==1):
         button = [
-            [InlineKeyboardButton(text = 'NEXT -->', callback_data = "help+2")]
+            [InlineKeyboardButton(text = 'NEXT ----->', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
 
@@ -44,14 +44,14 @@ def map(pos):
              InlineKeyboardButton(text = 'Support Chat', url = SUPPORT_CHAT_LINK),
              InlineKeyboardButton(text = 'Feature Request', url = "https://github.com/adarshgoel05/google-drive-telegram-bot/issues/new")
             ],
-            [InlineKeyboardButton(text = '<--BACK', callback_data = f"help+{pos-1}")]
+            [InlineKeyboardButton(text = '<-----BACK', callback_data = f"help+{pos-1}")]
 
         ]
     else:
         button = [
             [
-                InlineKeyboardButton(text = '<--BACK', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = 'NOTHING AHEAD  NOW USE /AUTH TO AUTHOURIZE ME', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = '<-----BACK', callback_data = f"help+{pos-1}"),
+                InlineKeyboardButton(text = 'NEXT----->', callback_data = f"help+{pos+1}")
             ],
         ]
     return button
