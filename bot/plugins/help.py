@@ -54,4 +54,6 @@ def map(adarsh):
                 InlineKeyboardButton(text = 'NEXT----->', callback_data = f"help+{adarsh+1}")
             ],
         ]
-    return button
+    return button = [
+               [
+                   InlineKeyboardButton(text = 'Goback', callback_data = f"help+{adarsh+1}")
