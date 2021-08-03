@@ -42,7 +42,7 @@ def map(adarsh):
         button = [
             [
              InlineKeyboardButton(text = 'Support Chat', url = SUPPORT_CHAT_LINK),
-             InlineKeyboardButton(text = 'Feature Request', url = "https://github.com/adarshgoel05/google-drive-telegram-bot/issues/new")
+             InlineKeyboardButton(text = 'SOURCE CODE', url = "https://github.com/adarshgoel05/google-drive-telegram-bot")
             ],
             [InlineKeyboardButton(text = '<-----BACK', callback_data = f"help+{adarsh-1}")]
 
