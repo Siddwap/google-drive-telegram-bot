@@ -51,7 +51,7 @@ def map(pos):
         button = [
             [
                 InlineKeyboardButton(text = '<-----BACK', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = 'NEXT----->', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = 'NEXT----->', callback_data = f"help+{pos-1}")
             ],
         ]
     return button
