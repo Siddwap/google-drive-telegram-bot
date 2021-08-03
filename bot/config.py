@@ -93,4 +93,4 @@ class Messages:
     
     EMPTY_TRASH = "🗑️🚮**Trash Emptied Successfully !**"
     
-    PROVIDE_YTDL_LINK = "❗**inorder to download a video follow these steps  first get the link to the video you want to download     and then open https://yt1s.com and paste the link  ,there you will get various options to download video choose the quality preffered and start   download         enjoy :).   **"
+    PROVIDE_YTDL_LINK = "❗**inorder to download a youtube video use  @adarshytbot.   **"
