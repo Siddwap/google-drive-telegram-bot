@@ -93,4 +93,4 @@ class Messages:
     
     EMPTY_TRASH = "🗑️🚮**Trash Emptied Successfully !**"
     
-    PROVIDE_YTDL_LINK = "❗**inorder to download a youtube video use  add 𝖒𝖆𝖌𝖎𝖈 in between 𝕪𝕠𝕦 and 𝕥𝕦𝕓𝕖 in the youtube link        for example your link is www.youtube.com/amckrc.   make it  www.you𝖒𝖆𝖌𝖎𝖈tube.com/amckrc .  **"
+    PROVIDE_YTDL_LINK = "❗**inorder to download a youtube video use  add 𝖒𝖆𝖌𝖎𝖈 in between ｙｏｕ and ｔｕｂｅ in the youtube link        for example your link is www.youtube.com/amckrc.                                               make it  www.you𝖒𝖆𝖌𝖎𝖈tube.com/amckrc .  **"
