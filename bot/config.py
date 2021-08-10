@@ -5,9 +5,9 @@ class config:
     DATABASE_URL = "postgres://yoezoznxfolxyw:24cb42073bbbc2b02c1ec878e512defa8fea7d66ed2ae515be7990f76c7014d6@ec2-54-196-65-186.compute-1.amazonaws.com:5432/dapbo575pji76a"
     SUDO_USERS = "1821879869" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/adarshgoelo5"
-    DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = "829735817774-nkqmlusgpimmt9fbn0q8388m3607c6d7.apps.googleusercontent.com"
-    G_DRIVE_CLIENT_SECRET = "eVlLZnW9Mbs0DzgxPwOgSBEc"
+    DOWNLOAD_DIRECTORY = "./downloads/GDRIVEBOT/"
+    G_DRIVE_CLIENT_ID = "1011965575859-c509oe03t407rbbpv4ta6i84psdflmmc.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "2VS6PLGLdFNewal7LchiAv3m"
 
 
 class BotCommands:
