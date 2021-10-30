@@ -1,11 +1,11 @@
 class config:
-    BOT_TOKEN = "1837774262:AAEDDICI3Dviim2FT6nHLHVxfvdXW0GW0iI"
-    APP_ID = "6277451"
-    API_HASH = "401f66ed51a03e2eeabb7f14d9d04b0d"
+    BOT_TOKEN = "2058851344:AAFKdrP55JLBEoD5cFw1q5Qqyucg-BjSFAo"
+    APP_ID = "8087060"
+    API_HASH = "ead24e1abe37e9a80b16ef0f468350b6"
     DATABASE_URL = "postgres://yoezoznxfolxyw:24cb42073bbbc2b02c1ec878e512defa8fea7d66ed2ae515be7990f76c7014d6@ec2-54-196-65-186.compute-1.amazonaws.com:5432/dapbo575pji76a"
-    SUDO_USERS = "1821879869" # Sepearted by space.
+    SUDO_USERS = "1958355347" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/adarshgoelo5"
-    DOWNLOAD_DIRECTORY = "./downloads/GDRIVEBOT/"
+    DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = "1011965575859-c509oe03t407rbbpv4ta6i84psdflmmc.apps.googleusercontent.com"
     G_DRIVE_CLIENT_SECRET = "2VS6PLGLdFNewal7LchiAv3m"
 
@@ -21,11 +21,11 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi  {}!**\n__I'm Google Drive Uploader Bot.I have been created by @adarshgoelo5 .You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help. use  /auth   to start the authorisation process__  "
+    START_MSG = "**Hi  {}!**\n__I'm Google Drive Uploader Bot.I have been created by Shuaib Siddiqui.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help. use  /auth   to start the authorisation process__  "
 
     HELP_MSG = [
         ".",
-        "**GOOGLE DRIVE ADARSH**\n__       ➡   I can upload files from direct link or Telegram Files to your Google Drive. All you need is to authenticate me to use  your Google Drive Account and then send a direct download link or Telegram File.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the information carefully.",
+        "**GOOGLE DRIVE**\n__       ➡   I can upload files from direct link or Telegram Files to your Google Drive. All you need is to authenticate me to use  your Google Drive Account and then send a direct download link or Telegram File.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the information carefully.",
         
         f"**Authenticating Google Drive**\n__      ➡    Send the /{BotCommands.Authorize[0]} commmand and you will receive a URL, visit URL and follow the steps and send the received code here. Use /{BotCommands.Revoke[0]} to revoke your currently logged Google Drive Account.__\n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me.\nSo, Authorization is mandatory !**",
         
